@@ -1,0 +1,25 @@
+[package]
+name = "sceua_r"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.91.1"
+publish = false
+
+[lib]
+crate-type = ["staticlib"]
+name = "sceua"
+
+[dependencies]
+extendr-api = "0.9.0"
+sceua = { workspace = true }
+
+[workspace]
+resolver = "2"
+members = [".", "rust"]
+package = { version = "0.1.0", edition = "2021", rust-version = "1.91.1" }
+dependencies = { sceua = { path = "rust", features = [
+] } }
+lints = { rust = { unsafe_code = "forbid" } }
+
+[profile]
+release = { opt-level = 3, lto = "fat", codegen-units = 1, debug = false, strip = "symbols", incremental = false }

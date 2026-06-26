@@ -1,0 +1,17 @@
+[package]
+name = "sceua"
+version.workspace = true
+edition.workspace = true
+rust-version = "1.81"
+description = "Shuffled Complex Evolution - University of Arizona global optimizer"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/atsyplenkov/sceua"
+documentation = "https://docs.rs/sceua"
+authors = ["Anatoly Tsyplenkov <s2@sent.com>"]
+keywords = ["optimization", "sce", "sce-ua", "duan"]
+categories = ["algorithms", "science"]
+
+[lib]
+crate-type = ["lib"]
+
