@@ -1,9 +1,9 @@
-3844c03de71a951c4eb0ffcb4b0e2ede *DESCRIPTION
+680023081e6c301af5292cb4d19c3152 *DESCRIPTION
 f05b03c76d2c3fdc3e988ec3184ddbfe *LICENSE
 ac5b1d2b8f61ff8f7f01beeb4f18a7dd *NAMESPACE
 b37878e07223a47aeb339ca52ec8af3e *R/extendr-wrappers.R
 df2041a0e7337075cc95cab8f2487f1d *R/sceua.R
-69983784c5d146543c1b90478d08db15 *README.md
+f45c376d223a45b6d60895dd3d80e4cd *README.md
 cb610d41cfad08d4e102bc1a3fe87a57 *configure
 1e6006521754e3a739cf9e515c11a90f *configure.win
 f06ea2fe9bb9496b90ed84cb6d6781bc *man/sceua.Rd
@@ -11,8 +11,8 @@ f4a89e196c7940878abc0f5a6f6ea3c4 *src/Makevars.in
 27957123fba16c05c53a66e68b0f3482 *src/Makevars.ucrt
 933196ce8e306580f9e36b61bcdd0c24 *src/Makevars.win.in
 62a993ffcbe910530a9b1b7a0b087a9b *src/entrypoint.c
-026414f7b6605916befe65d1c7fa1125 *src/rust/Cargo.lock
-ec88e9f4924f870264ea3f8d22bd39c2 *src/rust/Cargo.toml
+7efd6231f400830585a097da50f62167 *src/rust/Cargo.lock
+60e8134c9e0c1077e9081fbed420d42f *src/rust/Cargo.toml
 5367b62fe50fbe84ab09e3627ff8ee77 *src/rust/rust/Cargo.toml
 504d811a890ef0e627ae7c17031082de *src/rust/rust/LICENSE
 fbf53818f7a8241a328fa59d8c3e371d *src/rust/rust/README.md
@@ -27,7 +27,7 @@ d89ad3c37e9723e9f821e8387dc884da *src/rust/rust/src/rng.rs
 449de39abcdb12a6fd4263de107658ab *src/rust/rust/src/sce.rs
 566f91f486724792793f472203eac631 *src/rust/src/lib.rs
 d4c7febd30951f7fbd584476dbb2dd70 *src/rust/vendor-config.toml
-52a7aa731e9ae94c0b8417af8d070fc3 *src/rust/vendor.tar.xz
+4594c305455fb72d3a228048f7c984e3 *src/rust/vendor.tar.xz
 e4a156672a65af656ee65f00ea565f0e *src/sceua-win.def
 c3ffc6847589ae018318595d19ea3d9f *tests/testthat.R
 10bd5d40d48f9bb2ea39d0f6042b1641 *tests/testthat/test-sceua.R

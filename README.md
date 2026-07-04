@@ -18,8 +18,7 @@ calibration.
 Install the released version from CRAN:
 
 ``` r
-# Not yet available
-# install.packages("sceua")
+install.packages("sceua")
 ```
 
 Or the development version from GitHub:

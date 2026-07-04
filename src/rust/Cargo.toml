@@ -1,8 +1,8 @@
 [package]
 name = "sceua_r"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
-rust-version = "1.91.1"
+rust-version = "1.81"
 publish = false
 
 [lib]
@@ -16,7 +16,7 @@ sceua = { workspace = true }
 [workspace]
 resolver = "2"
 members = [".", "rust"]
-package = { version = "0.1.0", edition = "2021", rust-version = "1.91.1" }
+package = { version = "0.1.1", edition = "2021", rust-version = "1.81" }
 dependencies = { sceua = { path = "rust", features = [
 ] } }
 lints = { rust = { unsafe_code = "forbid" } }

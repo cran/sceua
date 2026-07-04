@@ -1,6 +1,6 @@
 Package: sceua
 Title: Shuffled Complex Evolution Algorithm for Optimization
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person("Anatoly", "Tsyplenkov", , "atsyplenkov@fastmail.com", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0003-4144-8402"))
@@ -21,15 +21,15 @@ Config/rextendr/version: 0.3.1.9001
 Config/build/bootstrap: TRUE
 Config/Needs/website: altdoc, quarto, bench, rtop, SoilHyP, knitr,
         rmarkdown, rextendr, tomledit
-SystemRequirements: Cargo (Rust's package manager), rustc (>= 1.91.1)
+SystemRequirements: Cargo (Rust's package manager), rustc (>= 1.81)
 Imports: checkmate
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Config/roxygen2/version: 8.0.0
 NeedsCompilation: yes
-Packaged: 2026-06-22 07:43:44 UTC; ats
+Packaged: 2026-07-04 12:12:09 UTC; ats
 Author: Anatoly Tsyplenkov [aut, cre, cph] (ORCID:
     <https://orcid.org/0000-0003-4144-8402>)
 Maintainer: Anatoly Tsyplenkov <atsyplenkov@fastmail.com>
 Repository: CRAN
-Date/Publication: 2026-06-26 09:20:08 UTC
+Date/Publication: 2026-07-04 13:00:02 UTC
